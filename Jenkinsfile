@@ -4,6 +4,7 @@ node {
       // test ansible command
       sh 'ls'
       sh 'ansible --version'
+      ssh toto@157.230.106.21 
     //}
   }
 }
