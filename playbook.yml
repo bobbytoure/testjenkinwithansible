@@ -1,0 +1,6 @@
+---
+- hosts: myservers
+  remote_user: toto
+  tasks:
+  - name: test install
+    shell: ls -lrt > /tmp/temp.txt
