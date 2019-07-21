@@ -6,7 +6,7 @@ node {
       sh 'ls'
       sh 'ansible --version'
       //sh 'ssh -i ${keyfile} -tt -o StrictHostKeyChecking=no toto@157.230.106.21'
-      sh 'ansible -i myservers playbook.yml'
+      sh 'ansible -i 157.230.106.21 playbook.yml'
     }
   }
 }
