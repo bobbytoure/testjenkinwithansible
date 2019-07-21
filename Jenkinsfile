@@ -4,7 +4,7 @@ node {
       // test ansible command
       sh 'ls'
       sh 'ansible --version'
-      sh 'ssh -tt toto@157.230.106.21'
+      sh 'ssh -tt -o StrictHostKeyChecking=no toto@157.230.106.21'
     //}
   }
 }
