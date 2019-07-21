@@ -4,6 +4,6 @@ node {
       // test ansible command
       sh 'ls'
       sh 'ansible --version'
-    }
+    //}
   }
 }
