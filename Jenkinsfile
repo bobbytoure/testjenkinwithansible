@@ -1,6 +1,5 @@
 node {
   stage('checkout') {
-    node {
         checkout scm
     }
   stage('do something with git') {  
